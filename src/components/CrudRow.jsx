@@ -49,8 +49,8 @@ const form = {
        <td className='w-7 text-center text-md'>{horas}</td>
        <td className='flex mb-2 items-center justify-center'>
        <div className='ml-7 flex flex-row gap-3'>
-       <button className='btn-accion-editar flex items-center justify-center'onClick={()=>{setDataToEdit(true); setji();saveelement(el)}}><img src="https://ibb.co/pRt0QNf" alt="" width={'14px'} /></button>
-      <button className='btn-accion-eliminar flex items-center justify-center' onClick={()=>{deleteData(id)}}><img src="https://ibb.co/qxqMXfF" alt="" width={'14px'} /></button>
+       <button className='btn-accion-editar flex items-center justify-center'onClick={()=>{setDataToEdit(true); setji();saveelement(el)}}><img src="https://i.postimg.cc/1tnW3X0V/editar.png" alt="" width={'14px'} /></button>
+      <button className='btn-accion-eliminar flex items-center justify-center' onClick={()=>{deleteData(id)}}><img src="https://i.postimg.cc/P5DrYQtS/x.png" alt="" width={'14px'} /></button>
         </div>
      </td>
 
