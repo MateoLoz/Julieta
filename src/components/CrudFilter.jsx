@@ -160,13 +160,13 @@ const cleaninput = () =>{
        <div className="w-3/5 flex flex-row gap-4 mb-4">
     <div  className="div flex flex-row items-center justify-center gap-4" >
     <input id="input" className="Serch" type="serch" placeholder="Buscar"  />
-    <button className="btn-serch" onClick={sendserch}><img src="https://ibb.co/BPLnsJZ" alt="" className="serch"/></button>
+    <button className="btn-serch" onClick={sendserch}><img src="https://i.postimg.cc/156LKCqV/lupa.png" alt="" className="serch"/></button>
     </div>
   
     <div className=" flex flex-row gap-5">
 
    <div className="filtro ">
-   <li className="flex flex-row gap-2 w-full h-7 justify-center items-center" value="0" onClick={()=> rotar()}>Filtrar <img id="img-arrow" className="" src="https://ibb.co/58qHpnG" alt="" width={'14px'} /></li>
+   <li className="flex flex-row gap-2 w-full h-7 justify-center items-center" value="0" onClick={()=> rotar()}>Filtrar <img id="img-arrow" className="" src="https://i.postimg.cc/zDK2gLWq/arrow1.png" alt="" width={'14px'} /></li>
        { list ? 
        <div className="w-full ">
         <li id="Pago" value={1} className="w-full li-item text-center" onClick={()=>evaluationFilter('Pago',1)}>Pago</li>
@@ -184,7 +184,7 @@ const cleaninput = () =>{
    </div>
 
 
-     <button id="btn-op" className="option-selected" onClick={()=> desfiltrar()}> {option} <img id="img-mark" src="https://i.postimg.cc/zDK2gLWq/arrow1.png" alt="" className="img-mark" /></button>
+     <button id="btn-op" className="option-selected" onClick={()=> desfiltrar()}> {option} <img id="img-mark" src="https://i.postimg.cc/Y9pV2Mn1/mark.png" alt="" className="img-mark" /></button>
     </div>
      </div>
     </>
