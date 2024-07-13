@@ -184,7 +184,7 @@ const cleaninput = () =>{
    </div>
 
 
-     <button id="btn-op" className="option-selected" onClick={()=> desfiltrar()}> {option} <img id="img-mark" src="https://ibb.co/DLgtBMw" alt="" className="img-mark" /></button>
+     <button id="btn-op" className="option-selected" onClick={()=> desfiltrar()}> {option} <img id="img-mark" src="https://i.postimg.cc/zDK2gLWq/arrow1.png" alt="" className="img-mark" /></button>
     </div>
      </div>
     </>
