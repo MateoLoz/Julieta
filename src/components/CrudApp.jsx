@@ -81,7 +81,7 @@ const CrudApp = () =>{
     
 
     const createData = (data) => {
-       
+       delete data.id
         let options = {body:data, headers:{"content-type":"application/json"}}
         api.post(url, options).then((res)=>{
           if(!res.err){
