@@ -82,8 +82,7 @@ const CrudApp = () =>{
 
     const createData = (data) => {
        delete data.id;
-        console.log(data);
-        JSON.stringify(data);
+
         let options = {body:data, headers:{"content-type":"application/json"}}
         api.post(url, options).then((res)=>{
           if(!res.err){
@@ -95,8 +94,7 @@ const CrudApp = () =>{
         
       }
       const updateData = (data) => {
-          console.log(data);
-          JSON.stringify(data);
+ 
         let endpoint = `${url}/${data.id}`;
         console.log(endpoint);
         let options = {body:data, headers:{"content-type":"application/json"}}
