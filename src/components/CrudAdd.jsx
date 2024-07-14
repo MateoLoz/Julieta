@@ -14,11 +14,7 @@ const initialForm = {
     vencimiento: ""
 }
 
-const getlastId = () =>{
-fetch('https://fake-api-two-wine.vercel.app/Users').then((data)=>console.log(data));
-}
 
-getlastId();
 
 
 
