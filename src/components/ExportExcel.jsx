@@ -6,7 +6,7 @@ import {ExportToExcel} from './Export'
 const ExportExcel = () =>{
    
     const [data,setdatos] = useState([]);
-    const url = "https://fake-api-two-wine.vercel.app/Users";
+    const url = "https://julieta-api.vercel.app/Users";
     const filename = "tabla de Usuarios"
 
     useEffect(()=>{
