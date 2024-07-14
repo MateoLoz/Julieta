@@ -15,7 +15,7 @@ const CrudApp = () =>{
     const [urlfilter,seturlfilter] = useState();
     const [urlserch,seturlserch] = useState();
     let api = HelperHttp();
-    let url = 'https://fake-api-two-wine.vercel.app/Users';
+    let url = "https://julieta-api.vercel.app/Users";
     
 
     const handlefiltercontrol = (param) =>{
