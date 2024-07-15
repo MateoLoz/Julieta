@@ -15,7 +15,7 @@ const CrudApp = () =>{
     const [urlfilter,seturlfilter] = useState();
     const [urlserch,seturlserch] = useState();
     let api = HelperHttp();
-    let url = "https://julieta-api.vercel.app/Users";
+    let url = "https://julieta-api.vercel.app/users";
     
 
     const handlefiltercontrol = (param) =>{
